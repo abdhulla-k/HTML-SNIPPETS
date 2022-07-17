@@ -1,0 +1,55 @@
+::-webkit-scrollbar {
+    width: 2em; /* edit the width of scrollbar */
+    /* change height like this to horizontal scrollbars if it needed*/
+}
+
+/* we can design specific scrollbar like vertical or horizontal. how:-
+ how to choose vertical scrollbars:-
+     .vertical-scroll::-webkit-scrollbar {}
+
+ how to choose main or body scrollbar:-
+     .body::-webdit-scrollbar {}
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    height: 5000px;
+    width: 100%;
+    background: rgb(99, 99, 195);
+}
+
+::-webkit-scrollbar-track {
+    background: hsl(212, 75%, 50%); /* choose color first, saturation second and brightness */
+    /* border-radius: 100vw; */
+}
+
+::-webkit-scrollbar-thumb {
+    /* put design to the thumb */
+    background: rgb(99, 99, 195); 
+
+    /* we can add gradient to scrollbar like below:- */
+    /* background: linear-gradient(blue, green,yellow); */
+
+    /* edit border */
+    border: .25em solid hsl(189, 61%, 44%); 
+    border-radius: 100vw;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: hsl(189, 61%, 44%) /* choose same as above. but to the thumb */
+}
+
+
+
+
+/* firefox syntax is different:- */
+@supports ( scrollbar-color: red, blue ) {
+    * {
+        scrollbar-color: hsl(212, 75%, 50%);
+        scrollbar-width: auto; /* there are three options */
+    }
+}
