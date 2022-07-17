@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.scroll-background {
+    background: rgb(101, 159, 172);
+    margin: 10% auto;      /* to allocate in center */
+    width: 30%;
+    padding: 10px;
+}
+
+.scroll-container {
+    background-color: rgb(101, 159, 172);
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    padding-bottom: 5px;
+    width: 100%;
+    /* overflow: auto; */
+    overflow-x: scroll;   /* to add scroll bar. ther are more other ways to add vertical scroll bar */
+}
+
+.scroll-content {
+    color: black;
+    font-family: cursive;
+    font-size: 19px;
+}
