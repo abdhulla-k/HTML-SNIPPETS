@@ -221,6 +221,30 @@ a {
 
 /* /certificate section */
 
+/* topics */
+
+.topics-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background: white;
+    padding: 0;
+    margin: 0;
+    box-shadow: 20px 10px 50px 5px rgb(206, 205, 205);
+}
+
+.topic {
+    display: flex;
+    margin: 10px;
+    width: 100%;
+    margin: 0;
+    padding: 0px 0px 0px 10px;
+}
+
+.to-hover :hover {
+    box-shadow: 0px 2px rgb(206, 205, 205);
+}
+/* /topics */
+
 /* footer */
 footer {
     background: white;
