@@ -216,3 +216,18 @@ a {
 }
 
 /* /certificate section */
+
+/* footer */
+footer {
+    background: white;
+    padding: 20px 20px 10px 10px;
+}
+
+.footer-links {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+    column-gap: 5px;
+    justify-content: space-between;
+    margin: 10px;
+}
+/* /footer */
