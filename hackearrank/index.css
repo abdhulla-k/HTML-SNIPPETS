@@ -9,6 +9,10 @@ h3 {
     margin: 0;
 }
 
+.pointer {
+    cursor: pointer;
+}
+
 /* header */
 
 header {
@@ -220,7 +224,7 @@ a {
 /* footer */
 footer {
     background: white;
-    padding: 20px 20px 10px 10px;
+    padding: 20px 80px 10px 80px;
 }
 
 .footer-links {
