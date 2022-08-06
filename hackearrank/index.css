@@ -166,3 +166,53 @@ a {
     width: 40%; 
     background: #1ba94c;
 }
+
+/* /tutorial section */
+
+/* certificate section */
+
+.heading {
+    margin-top: 50px;
+}
+
+.certification-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 100%;
+    column-gap: 20px;
+}
+
+.certificat-card {
+    background: white;
+    padding: 20px;
+    box-shadow: 20px 10px 50px 5px rgb(206, 205, 205);
+}
+
+.certified-button {
+    height: 50px;
+    border-style: solid;
+    color: #1ba94c;
+    text-align: center;
+    width: 200px;
+    padding-top: 3px;
+    padding-bottom: 10px;
+}
+
+.card-skill-list {
+    background: black;
+    color: white;
+    padding: 20px;
+    box-shadow: 20px 10px 50px 5px rgb(206, 205, 205);
+}
+
+.card-skill-sist-button {
+    background: white;
+    color: black;
+    height: 50px;
+    text-align: center;
+    width: 200px;
+    padding-top: 3px;
+    padding-bottom: 10px;
+}
+
+/* /certificate section */
