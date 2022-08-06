@@ -1,12 +1,15 @@
 body {
     margin: 0;
     padding: 0;
+    background: rgb(238, 233, 233);
 }
 
 h3 {
     padding: 0;
     margin: 0;
 }
+
+/* header */
 
 header {
     background: #0e141e;
@@ -94,4 +97,72 @@ a {
 
 .links :hover {
     color: white;
+}
+
+/* header completed */
+
+
+/* tutorial section */
+.content-container {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
+.tutorial-section {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    column-gap: 30px;
+    row-gap: 30px;
+    background: white;
+}
+
+.tutorial {
+    box-shadow: 20px 20px 30px 5px rgb(199, 197, 197);
+    padding: 30px;
+}
+
+.tutorial:hover {
+    box-shadow: 20px 10px 50px 5px rgb(206, 205, 205);
+}
+
+.card {
+    padding: 20px;
+}
+
+.progress-bar {
+    background: grey;
+    width: 80%;
+    margin-top: 30px;
+}
+
+.bar-inside {
+    height: 5px; width: 50%;
+    background: black;
+}
+
+.go-inside-button {
+    border-style: solid;
+    margin-top: 30px; 
+    color: #1ba94c; 
+    border-radius: 5px; 
+    padding: 5px; 
+    height: 100%; 
+    text-align: center; 
+    align-items: center; 
+    width: 40%; 
+}
+
+.go-inside {
+    margin-top: 30px; 
+    color: white; 
+    border-radius: 5px; 
+    padding: 5px; 
+    height: 100%; 
+    text-align: center; 
+    align-items: center; 
+    width: 40%; 
+    background: #1ba94c;
 }
