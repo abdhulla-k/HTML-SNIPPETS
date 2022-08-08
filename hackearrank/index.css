@@ -243,6 +243,10 @@ a {
 .to-hover :hover {
     box-shadow: 0px 2px rgb(206, 205, 205);
 }
+
+.dont-hover :hover {
+    box-shadow: 0px 2px white;
+}
 /* /topics */
 
 /* footer */
