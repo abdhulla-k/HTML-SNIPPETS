@@ -3,6 +3,14 @@ body {
     padding: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
+.align-center {
+    text-align: center;
+}
+
 /* header */
 header {
     width: 100%;
@@ -57,10 +65,6 @@ header {
 
 .contents {
     padding: 150px 350px 90px 350px;
-}
-
-.align-center {
-    text-align: center;
 }
 
 #first-heading {
@@ -143,6 +147,138 @@ header {
 /* feedback */
 .feedback {
     width: 100%;
-    height: 2000px;
+    height: 1000px;
+}
+
+.feedback-container {
+    padding: 100px 350px 0px 350px;
+}
+
+#feedback-heading1 {
+    color: rgb(72, 72, 72);
+    text-align: center;
+    font-size: 50px;
+    font-size: 55px;
+}
+
+#feedback-heading2 {
+    color: rgb(99, 123, 255);
+    text-align: center;
+    font-size: 50px;
+    font-size: 50px;
+}
+
+.feedback-videos {
+    height: 300px;
+    /* overflow: hidden; */
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+    align-items: center;
+}
+
+.video {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 15px;
+}
+
+.feedback-image {
+    border-radius: 15px;
+    width: 600px;
+    /* height: 50px; */
+}
+
+.background-round {
+    width: 150px;
+    height: 150px;
+    background: rgba(245, 95, 210, .25);
+    border-radius: 100px;
+    float: right;
+}
+
+.arrow-icon-right {
+    font-size: 40px;
+    margin-top: 150px;
+    margin-right: 360px;
+}
+
+.arrow-icon-left {
+    font-size: 40px;
+    margin-top: 150px;
+    margin-left: 500px;
+}
+
+.feedback-heading3 {
+    width: 100%;
+    text-align: center;
+    margin-top: 80px;
+    font-size: 30px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin-left: 15%;
+    padding-bottom: 100px;
+}
+
+.socialmedia-align {
+    align-items: center;
+    text-align: center;
+    width: 400px;
+    margin-right: 15px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgb(206, 205, 205);
+}
+
+.youtube-gradient {
+    font-size: 50px;
+    font-weight: 40px;
+    background-color: red;
+    background-image: linear-gradient(rgb(255, 0, 0) 0%, rgb(254, 154, 37) 100%);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    padding: 0;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.twitter-gradient {
+    font-size: 50px;
+    font-weight: 40px;
+    background-color: red;
+    background-image: linear-gradient(rgb(101, 202, 238) 0%, rgb(53, 175, 223) 100%);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    padding: 0;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.instagram-gradient {
+    font-size: 50px;
+    font-weight: 40px;
+    background-color: rgb(101, 202, 238);
+    background-image: linear-gradient(rgb(208, 29, 110) 0%, rgb(251, 160, 69) 100%);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    padding: 0;
+    margin-top: 5px;
+    margin-bottom: 10px;
 }
 /* /feedback */
