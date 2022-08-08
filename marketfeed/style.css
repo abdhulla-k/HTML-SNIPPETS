@@ -282,3 +282,41 @@ header {
     margin-bottom: 10px;
 }
 /* /feedback */
+
+/* footer */
+footer {
+    background: rgb(13, 10, 27);
+    height: 500px;
+    width: 100%;
+    padding-top: 50px;
+    color: white;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.about {
+    display: flex;
+    /* justify-content: space-around; */
+    padding-left: 33%;
+    padding-top: 100px;
+    line-height: 2em;
+}
+
+.footer-align {
+    margin-right: 100px;
+}
+
+.footer-heading {
+    margin: 0;
+    padding: 0;
+    color: grey;
+    font-size: 25px;
+}
+
+.image-footer {
+    margin-left: 45%;
+}
+/* /footer */
