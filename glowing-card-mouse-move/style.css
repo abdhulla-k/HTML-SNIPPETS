@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clowing-cards {
+  min-height: 100vh;
+  background: url(https://source.unsplash.com/7BjhtdogU3A/1600x900) no-repeat
+    center;
+  background-size: cover;
+  padding: 2em;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5em;
+  overflow: hidden;
+  position: relative;
+}
+
+.clowing-cards::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.clowing-cards .card {
+  position: relative;
+  width: 22rem;
+  height: 23rem;
+  color: #fff;
+  background: radial-gradient(
+    1000px circle at 0 0,
+    rgba(1, 94, 255, 0),
+    transparent 0%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 100ms;
+}
+
+.clowing-cards .card-content {
+  background: rgba(29, 29, 35, 0.7);
+  border-radius: inherit;
+  padding: 1.5em;
+  height: calc(100% - 4px);
+  width: calc(100% - 4px);
+  z-index: 0;
+}
+
+
+.clowing-cards .card h2 {
+  margin: 1em 0 0.5 em 0;
+}
+
+.clowing-cards .card p {
+  line-height: 30px;
+}
+
+.clowing-cards:hover .card {
+  background: radial-gradient(
+    1500px circle at var(--x) var(--y),
+    rgba(248, 10, 10, 0.9),
+    transparent 15%
+  );
+}
+
+.clowing-cards .card i {
+  font-size: 3em;
+}
+
+.clowing-cards .card-content * {
+  opacity: 0.5;
+  transition: 300ms ease-in-out;
+}
+
+.clowing-cards .card:hover .card-content * {
+  opacity: 1;
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: inherit;
+  background: radial-gradient(
+    1500px circle at var(--x) var(--y),
+    rgba(0, 153, 255, 0.623),
+    transparent 35%
+  );
+  opacity: 0;
+  z-index: 2;
+}
+
+.cards .card:hover::before {
+  opacity: 1;
+}
