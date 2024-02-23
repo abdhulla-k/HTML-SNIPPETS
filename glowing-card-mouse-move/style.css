@@ -30,8 +30,8 @@
 
 .clowing-cards .card {
   position: relative;
-  width: 22rem;
-  height: 23rem;
+  width: 12rem;
+  height: 13rem;
   color: #fff;
   background: radial-gradient(
     1000px circle at 0 0,
@@ -45,7 +45,7 @@
 }
 
 .clowing-cards .card-content {
-  background: rgba(29, 29, 35, 0.7);
+  background: rgba(29, 29, 35, 1);
   border-radius: inherit;
   padding: 1.5em;
   height: calc(100% - 4px);
@@ -92,8 +92,8 @@
   bottom: 0;
   border-radius: inherit;
   background: radial-gradient(
-    1500px circle at var(--x) var(--y),
-    rgba(0, 153, 255, 0.623),
+    2000px circle at var(--x) var(--y),
+    rgba(248, 10, 10, 0.9),
     transparent 35%
   );
   opacity: 0;
@@ -103,3 +103,16 @@
 .cards .card:hover::before {
   opacity: 1;
 }
+
+.card:hover{
+  background-color: red;
+}
+
+.child:hover .parent {
+  /* Your styles here */
+  background-color: red;
+}
+
+/* .clowing-cards .card:hover::before {
+  opacity: 0;
+} */
